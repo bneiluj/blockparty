@@ -106,7 +106,7 @@ class ConferenceDetail extends React.Component {
       var curr_date = d.getDate();
       var curr_month = d.getMonth() + 1; //Months are zero based
       var curr_year = d.getFullYear();
-      var date = `${curr_date}-${curr_month}-${curr_year}`
+      var date = `18-08-2016`
 
       return (
         <span style={styles.list}>{date}</span>

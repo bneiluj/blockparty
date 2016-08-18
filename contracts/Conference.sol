@@ -25,7 +25,7 @@ contract Conference {
 	event Cancel(address addr, uint256 balance);
 
 	function Conference() {
-		name = 'CodeUp';
+		name = 'Ethereum Classic';
 		deposit = 1000000000000000000;		// 1 ETH = 10**18 wai
 		balance = 0;
 		registered = 0;
