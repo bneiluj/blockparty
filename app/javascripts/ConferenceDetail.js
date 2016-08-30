@@ -96,7 +96,7 @@ class ConferenceDetail extends React.Component {
       var date = `${curr_date}-${curr_month}-${curr_year}`
 
       return (
-        <span style={styles.list}>{date}</span>
+        <span style={styles.list}>{1-9-2016}</span>
       )
     }else{
       return (
