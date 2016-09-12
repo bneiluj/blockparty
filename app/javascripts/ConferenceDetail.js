@@ -77,13 +77,13 @@ class ConferenceDetail extends React.Component {
     if(name){
       return (
         <span style={styles.list}>
-          {name} (<a target='_blank' href={ `https://testnet.etherscan.io/address/${contractAddress}` }>{contractAddress.slice(0,5)}...</a>)
+          {name} (<a target='_blank' href={ `https://etherscan.io/address/${contractAddress}` }>{contractAddress.slice(0,5)}...</a>)
         </span>
       )
     }else{
       return (
         <span style={styles.list}>
-          The contract <a target='_blank' href={ `https://testnet.etherscan.io/address/${contractAddress}` }>{contractAddress.slice(0,10)}...</a> not available
+          The contract <a target='_blank' href={ `https://etherscan.io/address/${contractAddress}` }>{contractAddress.slice(0,10)}...</a> not available
         </span>
       )
     }

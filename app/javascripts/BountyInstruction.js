@@ -89,7 +89,7 @@ export default class BountyInstruction extends React.Component {
                 <TableRowColumn>
                   <a
                     target='_blank'
-                    href={ `https://testnet.etherscan.io/address/${this.props.bounty.address}` }>
+                    href={ `https://etherscan.io/address/${this.props.bounty.address}` }>
                     {this.props.bounty.address}
                   </a>
                 </TableRowColumn>

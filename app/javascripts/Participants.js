@@ -164,7 +164,7 @@ class Participants extends React.Component {
             <TableRowColumn width={50}>
               {getTwitterIcon(participant.name)}
               <span style={{paddingLeft:'1em'}}><a target='_blank' href={ `https://twitter.com/${participant.name}` }>{participant.name}</a> </span>
-              (<a target='_blank' href={ `https://testnet.etherscan.io/address/${participant.address}` }>{participant.address.slice(0,5)}...</a>)
+              (<a target='_blank' href={ `https://etherscan.io/address/${participant.address}` }>{participant.address.slice(0,5)}...</a>)
               </TableRowColumn>
             <TableRowColumn width={10} >{this.yesNo(participant)}</TableRowColumn>
             <TableRowColumn width={20} >
