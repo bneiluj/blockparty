@@ -42,7 +42,8 @@ function setup(){
           console.log('Success')
         }else{
           console.log('The endspoint is not active. Falling back to read_only mode')
-          url = 'https://eth3.augur.net'
+          // url = 'https://eth3.augur.net'
+          url = 'https://eth2.augur.net'
           read_only = true
         }
       }).error(function(error){
