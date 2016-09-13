@@ -8,7 +8,7 @@ module.exports = {
       network_id: 2   // Official Ethereum test network
     },
     "development": {
-      network_id: 1
+      network_id: "default"
     }
   },
   rpc: {
