@@ -21,6 +21,9 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 
 function setup(){
   return new Promise(function(resolve,reject){
+    Conference.setNetwork('1')
+    Bounty.setNetwork('1')
+    Migrations.setNetwork('1')
     let provider;
     let read_only = false;
     let url = "http://localhost:8545";
