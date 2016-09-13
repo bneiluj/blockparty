@@ -84,7 +84,7 @@ Real sites allows for participants to only `Register` and pay deposit to the sit
 
 <h3>Do you take any commission?</h3>
 <p>
-  No, but if you like this project, it would be great if you can donate to my <a href="https://simplybusiness.everydayhero.com/uk/makoto">5 days Sahara trekking challenge page</a>. This will help Whizz-Kidz, disabled children's charity, which I am currently fund raising.
+  No, but if you like this project, it would be great if you can donate to my <a href="https://simplybusiness.everydayhero.com/uk/makoto">5 days Sahara trekking challenge page</a> mentioning "BlockParty". This will help Whizz-Kidz, disabled children's charity, which I am currently fund raising.
 </p>
 
 <h2>Terms and conditions</h2>
