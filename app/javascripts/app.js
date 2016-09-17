@@ -217,7 +217,7 @@ window.onload = function() {
               }
               iconElementLeft={<Avatar src="/images/nightclub-white.png" size={50} backgroundColor="rgb(96, 125, 139)" />}
               iconElementRight={
-                <span>
+                <span className='header-menu'>
                   {readOnlyButton}
                   <FlatButton style={{color:'white'}} label="About" onClick={ () => {eventEmitter.emit('instruction')}} />
                   <BountyInstruction bounty={bounty} getDetail={getDetail} getBalance={getBalance} web3={web3} />
