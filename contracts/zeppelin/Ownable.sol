@@ -3,13 +3,13 @@
  * Base contract with an owner
  */
 contract Ownable {
-  address public owner;
+  address owner;
 
   function Ownable() {
     owner = msg.sender;
   }
 
-  modifier onlyOwner() {
+  modifier onlyOwner() { 
     if (msg.sender == owner)
       _
   }
